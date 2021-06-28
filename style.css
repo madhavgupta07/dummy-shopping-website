@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #dfe6e9;
+}
+.lorem{
+    padding: 0 40px;
+    text-align: center;
+}
+.grandparents{
+    width: 100vw;
+    height: 100vh;
+    background: #dfe6e9; 
+    color: #000;
+}
+h1{
+    font-size: 4rem;
+    padding: 0px 0;
+    text-align: center;
+    color: brown;
+    /* margin-top: 5%; */
+}
+.container{
+    display: inline-flexbox;
+    padding: 10px;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 70vh;
+    width: 100vw;
+}
+.card{
+    padding: 15px 15px;
+    text-align: center;
+}
+.footer {
+    /* clear: both; */
+    /* position: absolute; */
+    background-color: #e3f2fd;;
+    text-align: center;
+    color: rgb(175, 167, 166);
+    border-top: 5px solid  rgb(71, 78, 78);
+    overflow: hidden;
+    padding-top: 20px;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    }
